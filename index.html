@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Buscador de Cafeterías Mendoza</title>
+<link rel="stylesheet" href="style.css">
+
+<!-- Google Maps JS -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXZimDCdb3FJB_2T0mPd24AyRS3Hctu_I&callback=initMap" async defer></script>
+</head>
+<body>
+  <h1>Buscador de Cafeterías Mendoza</h1>
+
+  <!-- Barra de búsqueda -->
+  <div id="search-container">
+  <input type="text" id="search-input" placeholder="Buscar cafetería...">
+</div>
+
+  <!-- Mapa -->
+  <div id="map"></div>
+
+  <!-- Lista de cafeterías -->
+  <div id="cafes"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
